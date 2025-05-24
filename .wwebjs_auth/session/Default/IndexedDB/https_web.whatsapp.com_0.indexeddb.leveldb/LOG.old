@@ -1,0 +1,14 @@
+2025/05/23-13:49:52.805 4e30 Reusing MANIFEST E:\CODING_CAROLUS\Carlo-ChatBot-main\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/23-13:49:52.806 4e30 Recovering log #608
+2025/05/23-13:49:52.808 4e30 Reusing old log E:\CODING_CAROLUS\Carlo-ChatBot-main\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000608.log 
+2025/05/23-13:49:52.809 4e30 Delete type=2 #607
+2025/05/23-13:49:53.945 4e30 Level-0 table #613: started
+2025/05/23-13:49:53.950 4e30 Level-0 table #613: 8792 bytes OK
+2025/05/23-13:49:53.951 4e30 Delete type=0 #608
+2025/05/23-13:49:53.952 4e30 Manual compaction at level-0 from '\x00N\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00O\x00\x00\x00' @ 0 : 0; will stop at '\x00X\x00\x00\x05' @ 1171163 : 1
+2025/05/23-13:49:53.952 4e30 Compacting 1@0 + 1@1 files
+2025/05/23-13:49:53.964 4e30 Generated table #614@0: 837 keys, 7511 bytes
+2025/05/23-13:49:53.964 4e30 Compacted 1@0 + 1@1 files => 7511 bytes
+2025/05/23-13:49:53.965 4e30 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/23-13:49:53.965 4e30 Delete type=2 #613
+2025/05/23-13:49:53.966 2220 Manual compaction at level-0 from '\x00X\x00\x00\x05' @ 1171163 : 1 .. '\x00O\x00\x00\x00' @ 0 : 0; will stop at (end)
