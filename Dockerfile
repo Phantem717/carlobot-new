@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
 COPY . .
 
 # Expose port untuk container
-EXPOSE 3000
+EXPOSE 4000
 
 # Jalankan server
 CMD ["npm", "run", "dev"]
