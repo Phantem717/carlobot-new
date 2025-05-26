@@ -40,13 +40,13 @@ function isValidFullName(name) {
 }
 
 function isValidNationalNumber(number) {
-    return /^[A-Za-z0-9]{7,11}-[A-Za-z0-9]{4}$/.test(number);
+    return /^[0-9]{16}$/.test(number);
 }
 
 function isValidAddress(address) {
     const addressArr = address.split(',').map(part => part.trim());
     // console.log("address",addressArr, addressArr.length, addressArr[0], addressArr[1], addressArr[2]);
-    if (addressArr.length != 3 && addressArr[0] == '' && addressArr[1] == '' & addressArr[2] == '') {
+    if (addressArr.length != 3 && addressArr[0] == "" && addressArr[1] == "" && addressArr[2] == "") {
         // console.log("INCORRECT ADDRESS STRUCTURE");
         return false;
     }

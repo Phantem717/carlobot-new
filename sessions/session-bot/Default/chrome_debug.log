@@ -1,12 +1,112 @@
-[0523/151848.093:ERROR:command_buffer_proxy_impl.cc(128)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
-[0523/151848.548:INFO:CONSOLE(162)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yw/r/t7muCQJoeq7.js (162)
-[0523/151848.636:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
-[0523/151848.637:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
-[0523/151848.637:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
-[0523/151848.637:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[0523/151848.637:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
-[0523/151848.638:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[0523/151848.638:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
-[0523/151848.638:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
-[0523/151848.638:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
-[0523/151848.638:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0526/100240.386:ERROR:command_buffer_proxy_impl.cc(128)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[0526/100241.022:INFO:CONSOLE(162)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yw/r/t7muCQJoeq7.js (162)
+[0526/100243.449:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0526/100243.449:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0526/100243.449:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0526/100243.449:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0526/100243.451:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0526/100243.451:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0526/100243.451:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0526/100243.451:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0526/100243.451:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0526/100243.451:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0526/100250.154:INFO:CONSOLE(162)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/4MPJ9JTACi3.js (162)
+[0526/100337.967:ERROR:entry_impl.cc(1072)] No file for 8000001a
+[0526/100337.968:ERROR:entry_impl.cc(1072)] No file for 80000019
+[0526/100338.233:INFO:CONSOLE(162)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/4MPJ9JTACi3.js (162)
+[0526/100338.324:ERROR:entry_impl.cc(1072)] No file for 8000001d
+[0526/100338.324:ERROR:entry_impl.cc(1072)] No file for 8000001e
+[0526/100338.342:ERROR:entry_impl.cc(1072)] No file for 8000001c
+[0526/100341.431:ERROR:entry_impl.cc(1072)] No file for 80000021
+[0526/100342.921:ERROR:entry_impl.cc(1072)] No file for 80000034
+[0526/100342.945:ERROR:entry_impl.cc(1072)] No file for 80000028
+[0526/100342.952:ERROR:entry_impl.cc(1072)] No file for 80000039
+[0526/100342.954:ERROR:entry_impl.cc(1072)] No file for 80000041
+[0526/100342.965:ERROR:entry_impl.cc(1072)] No file for 8000002a
+[0526/100342.966:ERROR:entry_impl.cc(1072)] No file for 80000029
+[0526/100342.972:ERROR:entry_impl.cc(1072)] No file for 8000003f
+[0526/100342.972:ERROR:entry_impl.cc(1072)] No file for 8000003a
+[0526/100342.973:ERROR:entry_impl.cc(1072)] No file for 8000003b
+[0526/100342.973:ERROR:entry_impl.cc(1072)] No file for 80000027
+[0526/100342.975:ERROR:entry_impl.cc(1072)] No file for 80000023
+[0526/100342.976:ERROR:entry_impl.cc(1072)] No file for 8000002b
+[0526/100342.977:ERROR:entry_impl.cc(1072)] No file for 80000038
+[0526/100342.977:ERROR:entry_impl.cc(1072)] No file for 80000030
+[0526/100342.978:ERROR:entry_impl.cc(1072)] No file for 8000002c
+[0526/100342.979:ERROR:entry_impl.cc(1072)] No file for 80000040
+[0526/100342.980:ERROR:entry_impl.cc(1072)] No file for 8000003e
+[0526/100342.981:ERROR:entry_impl.cc(1072)] No file for 8000003c
+[0526/100342.983:ERROR:entry_impl.cc(1072)] No file for 80000037
+[0526/100342.983:ERROR:entry_impl.cc(1072)] No file for 80000026
+[0526/100342.983:ERROR:entry_impl.cc(1072)] No file for 80000031
+[0526/100342.985:ERROR:entry_impl.cc(1072)] No file for 8000002d
+[0526/100342.986:ERROR:entry_impl.cc(1072)] No file for 8000002e
+[0526/100342.987:ERROR:entry_impl.cc(1072)] No file for 80000025
+[0526/100342.987:ERROR:entry_impl.cc(1072)] No file for 8000002f
+[0526/100342.989:ERROR:entry_impl.cc(1072)] No file for 80000032
+[0526/100342.990:ERROR:entry_impl.cc(1072)] No file for 80000033
+[0526/100342.991:ERROR:entry_impl.cc(1072)] No file for 80000042
+[0526/100342.995:ERROR:entry_impl.cc(1072)] No file for 80000036
+[0526/100343.007:ERROR:entry_impl.cc(1072)] No file for 80000024
+[0526/100343.008:ERROR:entry_impl.cc(1072)] No file for 80000035
+[0526/100343.011:ERROR:entry_impl.cc(1072)] No file for 80000022
+[0526/100343.026:ERROR:entry_impl.cc(1072)] No file for 8000003d
+[0526/100343.037:ERROR:entry_impl.cc(1072)] No file for 80000047
+[0526/100343.038:ERROR:entry_impl.cc(1072)] No file for 80000043
+[0526/100343.041:ERROR:entry_impl.cc(1072)] No file for 80000044
+[0526/100343.042:ERROR:entry_impl.cc(1072)] No file for 80000045
+[0526/100343.044:ERROR:entry_impl.cc(1072)] No file for 80000046
+[0526/100343.047:ERROR:entry_impl.cc(1072)] No file for 80000050
+[0526/100343.049:ERROR:entry_impl.cc(1072)] No file for 8000004e
+[0526/100343.050:ERROR:entry_impl.cc(1072)] No file for 8000004d
+[0526/100343.050:ERROR:entry_impl.cc(1072)] No file for 8000004b
+[0526/100343.051:ERROR:entry_impl.cc(1072)] No file for 8000004f
+[0526/100343.055:ERROR:entry_impl.cc(1072)] No file for 8000004a
+[0526/100343.058:ERROR:entry_impl.cc(1072)] No file for 80000049
+[0526/100343.060:ERROR:entry_impl.cc(1072)] No file for 80000048
+[0526/100343.060:ERROR:entry_impl.cc(1072)] No file for 8000004c
+[0526/100343.066:ERROR:entry_impl.cc(1072)] No file for 80000052
+[0526/100343.071:ERROR:entry_impl.cc(1072)] No file for 80000053
+[0526/100343.072:ERROR:entry_impl.cc(1072)] No file for 80000054
+[0526/100343.076:ERROR:entry_impl.cc(1072)] No file for 80000051
+[0526/100343.082:ERROR:entry_impl.cc(1072)] No file for 80000055
+[0526/100343.084:ERROR:entry_impl.cc(1072)] No file for 80000057
+[0526/100343.086:ERROR:entry_impl.cc(1072)] No file for 80000056
+[0526/100343.091:ERROR:entry_impl.cc(1072)] No file for 8000005a
+[0526/100343.093:ERROR:entry_impl.cc(1072)] No file for 80000058
+[0526/100343.096:ERROR:entry_impl.cc(1072)] No file for 80000059
+[0526/100349.229:INFO:CONSOLE(77)] "ErrorUtils caught an error:
+
+Converting to a string will drop content data. Hash="undefined" Translation="{participants} joined using your invite" Content="{"key":null,"ref":null,"props":{"contact":{"id":"6281387452799@c.us","name":"Veronika Odelia","shortName":"Veronika","pushname":"skrimp del monte","type":"in","isContactSyncCompleted":0,"textStatusLastUpdateTime":-1,"syncToAddressbook":true},"showNot" (type=object,Object)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/af9omLtluD_.js (77)
+[0526/100349.558:ERROR:entry_impl.cc(1072)] No file for 8000005f
+[0526/100349.571:INFO:CONSOLE(77)] "ErrorUtils caught an error:
+
+Requiring unknown module "WAWebForwardMessagesToChat"
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/af9omLtluD_.js (77)
+[0526/100358.376:INFO:CONSOLE(328)] "Uncaught (in promise) #<a>", source: https://static.whatsapp.net/rsrc.php/v4/yV/r/OFBooxPl4rT.js (328)
+[0526/100358.377:INFO:CONSOLE(150)] "Uncaught (in promise) Error: Unexpected null or undefined: me", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/af9omLtluD_.js (150)
+[0526/100358.621:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0526/100358.621:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0526/100358.622:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0526/100358.674:ERROR:entry_impl.cc(1072)] No file for 80000082
+[0526/100359.255:ERROR:entry_impl.cc(1072)] No file for 80000087
+[0526/100359.262:ERROR:entry_impl.cc(1072)] No file for 80000088
+[0526/100359.263:ERROR:entry_impl.cc(1072)] No file for 8000006f
+[0526/100359.266:ERROR:entry_impl.cc(1072)] No file for 8000008b
+[0526/100359.267:ERROR:entry_impl.cc(1072)] No file for 8000008c
+[0526/100359.268:ERROR:entry_impl.cc(1072)] No file for 8000008d
+[0526/100359.269:ERROR:entry_impl.cc(1072)] No file for 80000090
+[0526/100359.270:ERROR:entry_impl.cc(1072)] No file for 8000008a
+[0526/100359.270:ERROR:entry_impl.cc(1072)] No file for 8000008f
+[0526/100359.270:ERROR:entry_impl.cc(1072)] No file for 80000079
+[0526/100359.367:ERROR:entry_impl.cc(1072)] No file for 80000071

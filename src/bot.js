@@ -109,7 +109,7 @@ module.exports = function initializeBot() {
                     await goBackToSummary(msg, state);
                 } else {
                     await msg.reply(
-                        "Mohon Sebutkan Seluruh no registrasi nasional contohnya *3173051-5134* atau *PXXXXXXXXXX-XXXX* \n\n" +
+                        "Mohon Sebutkan Seluruh no NIK contohnya *1234567890123456* \n\n" +
                         "Jika anda ingin Berhenti melakukan pelayanan silahkan ketik *Stop*"
                     );
                     state.step = 3;
@@ -120,8 +120,8 @@ module.exports = function initializeBot() {
             const nationalNumber = msg.body.trim();
             if (!isValidNationalNumber(nationalNumber)) {
                 await msg.reply(
-                    "Nomor Registrasi Nasional tidak valid. Format yang benar \n\n" +
-                    "contohnya *3173051-5134* atau *PXXXXXXXXXX-XXXX Silahkan Coba Kembali* \n\n" +
+                    "Nomor NIK tidak valid. Format yang benar \n\n" +
+                    "contohnya *1234567890123456* Silahkan Coba Kembali* \n\n" +
                     "\n\nJika anda ingin Berhenti melakukan pelayanan silahkan ketik *Stop*"
                 );
             } else {
