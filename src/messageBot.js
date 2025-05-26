@@ -29,8 +29,9 @@ const initializeMessageBot = async () => {
     // Tampilkan QR Code di terminal menggunakan qrcode-terminal
     messageClient.on('qr', (qr) => {
         console.log('Scan this QR Code to initialize the bot:');
+                    currentQrCode = qr; // Simpan QR code ke variabel
+        console.log("QR",qr);
         qrcode.generate(qr, { small: true }); // Menampilkan QR code dalam bentuk kecil
-            currentQrCode = qr; // Simpan QR code ke variabel
 
     });
 
@@ -58,6 +59,7 @@ const initializeMessageBot = async () => {
     return messageClient;
 };
 function getCurrentQrCode() {
+    console.log("CURRENT QR",currentQrCode);
     return currentQrCode;
   }
 

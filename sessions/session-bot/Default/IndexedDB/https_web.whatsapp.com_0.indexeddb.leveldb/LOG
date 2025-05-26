@@ -1,14 +1,14 @@
-2025/05/26-18:42:23.953 43a8 Reusing MANIFEST E:\CODING_CAROLUS\Carlo-ChatBot-main\sessions\session-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/26-18:42:23.954 43a8 Recovering log #1929
-2025/05/26-18:42:23.956 43a8 Reusing old log E:\CODING_CAROLUS\Carlo-ChatBot-main\sessions\session-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001929.log 
-2025/05/26-18:42:23.957 43a8 Delete type=2 #1927
-2025/05/26-18:42:24.512 3d9c Level-0 table #1934: started
-2025/05/26-18:42:24.515 3d9c Level-0 table #1934: 8426 bytes OK
-2025/05/26-18:42:24.516 3d9c Delete type=0 #1929
-2025/05/26-18:42:24.516 3d9c Manual compaction at level-0 from ' \xb6\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xb7\x01\x00\x00\x00' @ 0 : 0; will stop at ' \xb6\x01\x0a\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1745231 : 1
-2025/05/26-18:42:24.517 3d9c Compacting 1@0 + 1@1 files
-2025/05/26-18:42:24.523 3d9c Generated table #1935@0: 1010 keys, 8962 bytes
-2025/05/26-18:42:24.523 3d9c Compacted 1@0 + 1@1 files => 8962 bytes
-2025/05/26-18:42:24.524 3d9c compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/26-18:42:24.525 3d9c Delete type=2 #1934
-2025/05/26-18:42:24.525 2e64 Manual compaction at level-0 from ' \xb6\x01\x0a\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1745231 : 1 .. ' \xb7\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/26-18:52:12.430 4840 Reusing MANIFEST E:\CODING_CAROLUS\Carlo-ChatBot-main\sessions\session-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/26-18:52:12.432 4840 Recovering log #1941
+2025/05/26-18:52:12.434 4840 Reusing old log E:\CODING_CAROLUS\Carlo-ChatBot-main\sessions\session-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001941.log 
+2025/05/26-18:52:12.434 4840 Delete type=2 #1939
+2025/05/26-18:52:13.128 179c Level-0 table #1946: started
+2025/05/26-18:52:13.132 179c Level-0 table #1946: 8317 bytes OK
+2025/05/26-18:52:13.133 179c Delete type=0 #1941
+2025/05/26-18:52:13.134 179c Manual compaction at level-0 from ' \xb9\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xba\x01\x00\x00\x00' @ 0 : 0; will stop at ' \xb9\x01\x0a\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1747367 : 1
+2025/05/26-18:52:13.134 179c Compacting 1@0 + 1@1 files
+2025/05/26-18:52:13.140 179c Generated table #1947@0: 1010 keys, 8962 bytes
+2025/05/26-18:52:13.140 179c Compacted 1@0 + 1@1 files => 8962 bytes
+2025/05/26-18:52:13.141 179c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/26-18:52:13.141 179c Delete type=2 #1946
+2025/05/26-18:52:13.142 179c Manual compaction at level-0 from ' \xb9\x01\x0a\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1747367 : 1 .. ' \xba\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
