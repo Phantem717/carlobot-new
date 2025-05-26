@@ -46,13 +46,13 @@ function isValidNationalNumber(number) {
 function isValidAddress(address) {
     const addressArr = address.split(',').map(part => part.trim());
     // console.log("address",addressArr, addressArr.length, addressArr[0], addressArr[1], addressArr[2]);
-    if (addressArr.length != 3 && addressArr[0] == "" && addressArr[1] == "" && addressArr[2] == "") {
+    if (addressArr.length != 3 || addressArr[0] == "" || addressArr[1] == "" || addressArr[2] == "") {
         // console.log("INCORRECT ADDRESS STRUCTURE");
         return false;
     }
 
-    if (addressArr[1].length  != 5 && !addressArr[1].startsWith('1')) {
-        // console.log("INCORRECT POSTAL CODE");
+   const postalCode = addressArr[1];
+    if (postalCode.length !== 5 || !/^1\d{4}$/.test(postalCode)) {
         return false;
     }
 
