@@ -70,7 +70,7 @@ module.exports = function initializeBot() {
         }
 
         if (state.step === 0) {
-            if (msg.body.toLowerCase() !== 'mulai') {
+            if (msg.body.toLowerCase() !== 'setuju') {
                 await sendWelcomeMessage(msg);
             } else {
                 await msg.reply(

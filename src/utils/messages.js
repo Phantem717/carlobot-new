@@ -27,9 +27,13 @@ module.exports = {
                 null,
                 {
                     caption: 
-                        "Halo Sahabat Carlo! Selamat datang di layanan pengiriman obat dari Ruang Carlo.\n\n" +
-                        "Untuk Memulai, mohon untuk membaca syarat dan ketentuan yang berlaku gambar.\n\n" +
-                        "Ketik *Mulai* jika anda mengerti dan setuju dengan syarat dan ketentuan yang berlaku"
+                       "Halo Sahabat Carlo! Selamat datang di layanan Carloship.\n\n"+
+
+"Layanan ini merupakan layanan pengiriman obat yang dikhususkan untuk pasien yang aktif mengambil obat di Ruang Carlo.\n\n"+
+
+"Untuk memulai, mohon untuk membaca syarat dan ketentuan yang berlaku pada gambar di atas.\n\n"+
+
+"Ketik *Setuju* jika Anda memahami dan menyetujui syarat dan ketentuan yang berlaku.\n\n"
                 }
             );
         } catch (err) {
