@@ -44,12 +44,15 @@ module.exports = function initializeBot() {
         console.log('Client is authenticated');
     });
 
-    client.on('qr', (qr) => {
-        // console.log('QR Code received', qr);
-        console.log('Scan this QR Code to initialize the bot:');
-        qrcode.generate(qr, { small: true }); // Menampilkan QR code dalam bentuk kecil
+ let latestQR = null;
 
-    });
+function handleQRCode(qr) {
+    latestQR = qr; // or convert to base64 if needed
+    console.log('Scan this QR Code to initialize the bot:');
+    qrcode.generate(qr, { small: true });
+}
+
+client.on('qr', handleQRCode);
 
     client.on('ready', () => {
         console.log('WhatsApp client is ready!');

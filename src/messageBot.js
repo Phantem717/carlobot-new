@@ -1,7 +1,8 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
-const qrcode = require('qrcode-terminal');
+const qrcode = require('qrcode');
 
 let messageClient = null;
+let currentQrCode = null; // Variabel untuk menyimpan QR code terbaru
 
 const initializeMessageBot = async () => {
     if (messageClient) {
@@ -29,18 +30,26 @@ const initializeMessageBot = async () => {
     messageClient.on('qr', (qr) => {
         console.log('Scan this QR Code to initialize the bot:');
         qrcode.generate(qr, { small: true }); // Menampilkan QR code dalam bentuk kecil
+            currentQrCode = qr; // Simpan QR code ke variabel
+
     });
 
     messageClient.on('ready', () => {
         console.log('Message bot is ready!');
+                    currentQrCode = null; // Simpan QR code ke variabel
+
     });
 
     messageClient.on('auth_failure', (msg) => {
         console.error('Authentication failure for message bot:', msg);
+                            currentQrCode = null; // Simpan QR code ke variabel
+
     });
 
    messageClient.on('disconnected', async (reason) => {
   console.log('Disconnected:', reason);
+                      currentQrCode = null; // Simpan QR code ke variabel
+
   await messageClient.destroy();
   setTimeout(() => messageClient.initialize(), 5000); // Restart after 5s
 });
@@ -48,6 +57,9 @@ const initializeMessageBot = async () => {
     await messageClient.initialize();
     return messageClient;
 };
+function getCurrentQrCode() {
+    return currentQrCode;
+  }
 
 const getMessageBotClient = () => {
     if (!messageClient) {
@@ -56,4 +68,4 @@ const getMessageBotClient = () => {
     return messageClient;
 };
 
-module.exports = { initializeMessageBot, getMessageBotClient };
+module.exports = { initializeMessageBot, getMessageBotClient,getCurrentQrCode };

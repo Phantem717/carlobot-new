@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bot = require('./bot'); // Impor logika bot
 const sendMessageRoute = require('./routes/sendMessageRoute');
-
+const qrRoute = require('./routes/qr');
 
 const PORT = process.env.PORT || 4000;
 
@@ -13,6 +13,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.send('WhatsApp Bot is Running!');
 });
+app.use('/api', qrRoute);
 
 // Gunakan route send-message
 app.use('/api/messages', sendMessageRoute);
