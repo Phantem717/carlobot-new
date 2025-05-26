@@ -31,10 +31,15 @@ module.exports = function initializeBot() {
     '--single-process', // Reduces memory usage
     '--no-zygote',
     '--max-old-space-size=2048' // Limits memory usage
-  ]
-},
-    });
+  ],
+      timeout: 60000
 
+},
+ takeoverOnConflict: false,
+  restartOnAuthFail: true,
+  qrTimeoutMs: 60000
+    });
+ 
     client.on('authenticated', (session) => {
         console.log('Client is authenticated');
     });

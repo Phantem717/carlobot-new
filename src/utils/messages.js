@@ -19,7 +19,7 @@ module.exports = {
     sendWelcomeMessage: async (msg) => {
         try {
             // Buat objek media
-            const media = MessageMedia.fromFilePath('./public/carolus.png');
+            const media = MessageMedia.fromFilePath('./public/carlo.png');
     
             // Kirim pesan dengan gambar dan caption
             await msg.reply(
