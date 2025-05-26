@@ -59,7 +59,7 @@ async function createPatient(data) {
     formData.append('eligible',0);
     formData.append('alamat',data.alamat)
 
-    // console.log("FORMDATA",formData)
+    console.log("FORMDATA",formData)
     const response = await fetch(PATIENT_URL, {
         method: 'POST',
         headers: {
