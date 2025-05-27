@@ -15,17 +15,28 @@ async function initializeBot() {
     return botClient;
   }
 
-  botClient = new Client({
-    authStrategy: new LocalAuth({ clientId: 'my-bot' }),
-    puppeteer: {
-      headless: true,
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        // opsional args lainnya...
-      ],
-    },
-  });
+  botClient =  new Client({
+       authStrategy: new LocalAuth({
+  clientId: 'bot',
+  dataPath: './sessions',
+  clearAuthDataOnDisconnect: true // Add this
+}),
+        puppeteer: {
+  headless: "new",
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage', // Prevents /dev/shm issues
+    '--single-process', // Reduces memory usage
+    '--no-zygote',
+    '--max-old-space-size=2048' // Limits memory usage
+  ],
+      timeout: 60000
+
+},
+ takeoverOnConflict: false,
+  restartOnAuthFail: true,
+  qrTimeoutMs: 60000  });
 
   botClient.on('connection.update', (update) => {
     const { connection } = update;

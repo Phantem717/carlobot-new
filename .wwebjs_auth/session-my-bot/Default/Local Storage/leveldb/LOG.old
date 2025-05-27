@@ -1,3 +1,3 @@
-2024/12/30-09:53:50.055 2c Reusing MANIFEST /usr/src/app/.wwebjs_auth/session-my-bot/Default/Local Storage/leveldb/MANIFEST-000001
-2024/12/30-09:53:50.073 2c Recovering log #3
-2024/12/30-09:53:50.078 2c Reusing old log /usr/src/app/.wwebjs_auth/session-my-bot/Default/Local Storage/leveldb/000003.log 
+2025/05/26-20:54:39.996 1a58 Reusing MANIFEST E:\CODING_CAROLUS\Carlo-ChatBot-master\.wwebjs_auth\session-my-bot\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/26-20:54:39.996 1a58 Recovering log #3
+2025/05/26-20:54:39.997 1a58 Reusing old log E:\CODING_CAROLUS\Carlo-ChatBot-master\.wwebjs_auth\session-my-bot\Default\Local Storage\leveldb/000003.log 

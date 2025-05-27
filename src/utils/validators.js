@@ -1,4 +1,7 @@
 // utils/validators.js
+const cityData = require('./kota.json');
+const cityList = cityData.kota; // This now contains the array of cities
+
 function isValidDate(dateString) {
     // Pertama, cek format YYYY-MM-DD dengan regex
     if (!/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
@@ -53,7 +56,7 @@ function isValidFullName(name) {
 
 function isValidNationalNumber(number) {
     // Format: 7 sampai 11 karakter alfanumerik, lalu '-', kemudian 4 karakter alfanumerik
-    return /^[A-Za-z0-9]{7,11}-[A-Za-z0-9]{4}$/.test(number);
+    return /^[0-9]{16}$/.test(number);
 }
 
 function isValidAddress(address) {
