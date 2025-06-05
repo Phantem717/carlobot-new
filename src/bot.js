@@ -107,7 +107,7 @@ Jika Anda ingin berhenti melakukan pelayanan, silakan ketik *Stop*.
                     await goBackToSummary(msg, state);
                 } else {
                     await msg.reply(
-                        "Mohon Sebutkan Alamat Lengkap Anda Sesuai dengan KTP anda. \n\n" +
+                        "Mohon Sebutkan Alamat Lengkap Anda Sesuai dengan alamat pengiriman anda. \n\n" +
                         "Urutannya Alamat, Kota, Kode Pos \n\n" +
                         "contohnya *Jalan Salemba Raya No. 41, 10440, Jakarta Selatan* \n\n" +
                         "\n\nJika anda ingin Berhenti melakukan pelayanan silahkan ketik *Stop*"
@@ -120,7 +120,7 @@ Jika Anda ingin berhenti melakukan pelayanan, silakan ketik *Stop*.
             const alamat = msg.body.trim();
             if (!isValidAddress(alamat)) {
                 await msg.reply(
-                    "Alamat tidak valid. Mohon sebutkan Alamat Lengkap Sesuai dengan KTP anda. \n\n" +
+                    "Alamat tidak valid. Mohon sebutkan Alamat Lengkap Sesuai dengan alamat pengiriman anda. \n\n" +
                     "contohnya *Jalan Salemba Raya No. 41, 10440, Jakarta Selatan* \n\n" +
                     "\n\nJika anda ingin Berhenti melakukan pelayanan silahkan ketik *Stop*"
                 );

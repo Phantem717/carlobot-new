@@ -32,8 +32,10 @@ router.post('/send-message', verifyToken, async (req, res) => {
         const client = getMessageBotClient(); // Ambil client dari messageBot.js
         const chatId = `${number}@c.us`; // Format nomor untuk WhatsApp
         await client.sendMessage(chatId, message);
+    console.log('Message sent successfully ROUTE',message);
 
         res.status(200).json({ message: 'Pesan berhasil dikirim.' });
+        
     } catch (error) {
         console.error('Error sending message:', error.message);
         res.status(500).json({ message: 'Gagal mengirim pesan.', error: error.message });

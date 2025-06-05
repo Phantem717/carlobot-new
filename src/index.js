@@ -1,10 +1,12 @@
 // src/app.js
+require('dotenv').config();
 const express = require('express');
 const { setupChatbot } = require('./bot');
 const { initializeBot } = require('./initializeMessageBot');
 const qrRoute = require('./routes/qrRoute'); // Impor route QR code
 const logoutRoute = require('./routes/logoutRoute');
 const sessionRoute = require('./routes/sessionRoute');
+const apiKeyAuth = require('./middleware/auth');
 
 
 const app = express();
@@ -20,7 +22,7 @@ app.use('/api', qrRoute);
 app.use('/api', sessionRoute);
 
 // Contoh route untuk kirim pesan manual
-app.post('/api/messages/send', async (req, res) => {
+app.post('/api/messages/send',apiKeyAuth, async (req, res) => {
   try {
     const { number, message } = req.body;
     if (!number || !message) {
@@ -29,6 +31,7 @@ app.post('/api/messages/send', async (req, res) => {
     // Gunakan instance yang sudah siap
     const client = await initializeBot();
     await client.sendMessage(`${number}@c.us`, message);
+    console.log('Message sent successfully',message);
     return res.json({ status: 'sent' });
   } catch (err) {
     console.error('Error in /api/messages/send:', err.message);

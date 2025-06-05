@@ -60,21 +60,9 @@ function isValidNationalNumber(number) {
 }
 
 function isValidAddress(address) {
-    const addressArr = address.split(',').map(part => part.trim());
-    // console.log("address",addressArr, addressArr.length, addressArr[0], addressArr[1], addressArr[2]);
-    if (addressArr.length != 3 || addressArr[0] == "" || addressArr[1] == "" || addressArr[2] == "") {
-        // console.log("INCORRECT ADDRESS STRUCTURE");
-        return false;
-    }
-
-   const postalCode = addressArr[1];
-    if (postalCode.length !== 5 || !/^1\d{4}$/.test(postalCode)) {
-        return false;
-    }
-
-    const normalizedCityList = cityList.map(city => city.toLowerCase().trim());
-    // console.log("normalizedCityList", normalizedCityList, "RESULT", normalizedCityList.includes(addressArr[2].toLowerCase().trim()));
-    return normalizedCityList.includes(addressArr[2].toLowerCase().trim());
+    if(address.length < 1) return false;
+    return true;
+    
 }
 
 
