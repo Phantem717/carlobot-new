@@ -100,7 +100,7 @@ Ketik *Setuju* jika Anda memahami dan menyetujui syarat dan ketentuan yang berla
             "Jika sudah silahkan ketik *Sudah*, jika belum ketik *Belum*.\n\n" +
             `Nama : ${name}\n` +
             `Tanggal Lahir : ${birthDate}\n` +
-            `Nomor Registrasi Nasional : ${nationalNumber}\n` +
+            `Nomor KTP : ${nationalNumber}\n` +
             `Alamat: ${alamat}\n`+
             `Berat Badan : ${weight}\n` +
             `Sisa Obat : ${remainingMedicine}`;
@@ -120,7 +120,7 @@ Bagian mana yang ingin Anda edit?
 
     1. *Nama Lengkap*
     2. *Tanggal Lahir*
-    3. *Nomor Registrasi Nasional*
+    3. *Nomor KTP*
     4. *Berat Badan*
     5. *Sisa Obat*
 

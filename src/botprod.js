@@ -102,7 +102,7 @@ client.on('message', async (msg) => {
         const nationalNumber = msg.body.trim();
         if (!isValidNationalNumber(nationalNumber)) {
             await msg.reply(
-                "Nomor Registrasi Nasional tidak valid. Format yang benar \n\n"+
+                "Nomor KTP tidak valid. Format yang benar \n\n"+
                  "contohnya *3173051-5134* atau *PXXXXXXXXXX-XXXX Silahkan Coba Kembali* \n\n"+
                 "\n\nJika anda ingin Berhenti melakukan pelayanan silahkan ketik *Stop*"
 
@@ -181,7 +181,7 @@ client.on('message', async (msg) => {
                 `Bagian mana yang ingin anda edit?
                 1. Nama Lengkap
                 2. Tanggal Lahir
-                3. Nomor Registrasi Nasional
+                3. Nomor KTP
                 4. Berat Badan
                 5. Sisa Obat
 

@@ -194,7 +194,7 @@ Jika Anda ingin berhenti melakukan pelayanan, silakan ketik *Stop*.
                     `Bagian mana yang ingin anda edit?
                     1. Nama Lengkap
                     2. Tanggal Lahir
-                    3. Nomor Registrasi Nasional
+                    3. Nomor KTP
                     4. Alamat
                     5. Berat Badan
                     6. Sisa Obat
