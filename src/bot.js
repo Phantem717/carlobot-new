@@ -182,7 +182,7 @@ Jika Anda ingin berhenti melakukan pelayanan, silakan ketik *Stop*.
                     state.data.phoneNumber = number;
                     const created = await createPatient(state.data);
                     console.log('Patient created:', created);
-                    await msg.reply("Data telah berhasil disimpan ke sistem. Anda akan dihubungi oleh petugas kami untuk langkah selanjutnya.");
+                    await msg.reply("Data telah berhasil disimpan ke sistem. Anda akan dihubungi oleh petugas kami untuk langkah selanjutnya.\n *Jam operasional WA Carloship: 08.00 - 14.30*");
                 } catch (err) {
                     console.error('Error creating patient:', err.message);
                     await msg.reply("Maaf, terjadi kesalahan saat menyimpan data Anda. Silahkan coba lagi nanti.");
