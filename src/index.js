@@ -48,5 +48,5 @@ setupChatbot()
 const PORT = process.env.PORT || 4000;
 // Jalankan server Express
 app.listen(PORT, () => {
-    console.log(`Server is running on http://172.16.86.21:${PORT}`);
+    console.log(`Server is running on http://192.168.6.104:${PORT}`);
 });
